@@ -49,7 +49,7 @@
      color: rgb(166, 0, 0);
 }
 .details-section {
-     padding: 16px;
+     padding: 16px 0;
      display: none;
 }
 .details-section img {
