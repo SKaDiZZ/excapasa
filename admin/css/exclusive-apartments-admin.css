@@ -1,0 +1,69 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+ .postbox { background-color: inherit !important; }
+
+ .lista {
+     padding: 15px;
+     margin: 0 -15px;
+     border-bottom: 1px solid #eeeeee;
+     background-color: inherit;
+     transition: 1s all;
+ }
+ .lista:hover {
+     background-color: #A0A5AA;
+     color: white;
+ }
+ .lista .dashicons {
+     margin-right: 15px;
+ }
+ .count {
+     font-weight: bold;
+     float: right;
+ }
+ .controls {
+     text-align: center;
+ }
+ .etiketa {
+     margin-right: 15px;
+ }
+ .ulaz {
+     width: 100%;
+ }
+ #update-message {
+     display: none;
+ }
+ .naslov-sekcije {
+     text-align: center !important;
+     border-bottom: 1px solid #E5E5E5;
+ }
+ .slobodan {
+      color: rgb(121, 173, 45);
+}
+.rezervisan {
+     color: rgb(255, 161, 0);
+}
+.iznajmljen {
+     color: rgb(166, 0, 0);
+}
+.details-section {
+     padding: 16px;
+     display: none;
+}
+.details-section img {
+     float: left;
+}
+.dashboard-opcije {
+     float: right;
+     margin-left: 16px;
+     width: 50%;
+}
+.clear {
+     clear: both;
+}
+.update-message {
+     display: none;
+     float: right;
+}
