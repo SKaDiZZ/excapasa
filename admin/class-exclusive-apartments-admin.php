@@ -294,7 +294,7 @@ public function podaci_o_apartmanu($post_id) {
 					</label>
 				</th>
 				<td>
-					<?php echo __('Postavite nekretninu u slajder ?','exclusive-apartments-slajder-info'); ?>
+					<?php echo __('Postavite apartman u slajder ?','exclusive-apartments-slajder-info'); ?>
 				</td>
 				<td>
 					<input type="radio" name="slajder" value="true" <?php checked( $slajder, 'true' ); ?>/>
@@ -329,7 +329,7 @@ public function podaci_o_apartmanu($post_id) {
 					</label>
 				</th>
 				<td>
-					<?php echo __('Grad u kojem se nalazi nekretnina.','exclusive-apartments-grad-info'); ?>
+					<?php echo __('Grad u kojem se nalazi apartman.','exclusive-apartments-grad-info'); ?>
 				</td>
 				<td>
 					<input type="text" name="grad" value="<?php echo $grad; ?>" class="ulaz">

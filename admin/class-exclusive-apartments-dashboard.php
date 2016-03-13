@@ -137,7 +137,7 @@ class Exclusive_Apartments_Dashboard {
 
 			<div class="controls">
 				<a class="button button-primary" href="<?php echo get_admin_url(); ?>edit.php?post_type=apartmani">Prikaži Apartmane</a>
-				<a class="button button-primary" href="<?php echo get_admin_url(); ?>post-new.php?post_type=nekretnine">Dodaj Apartman</a>
+				<a class="button button-primary" href="<?php echo get_admin_url(); ?>post-new.php?post_type=apartmani">Dodaj Apartman</a>
 			</div>
 
 		<?php
